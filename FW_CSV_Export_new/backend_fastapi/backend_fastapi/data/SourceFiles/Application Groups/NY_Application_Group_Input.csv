@@ -1,0 +1,4 @@
+﻿Name,Applications
+App_Any_And_Web,"any, web-browsing, ssl"
+App_Legacy_Risky,"unknown-tcp, ftp, rdp, vnc, smb"
+App_Enterprise_Common,"web-browsing, ssl, dns, ssh, smtp"

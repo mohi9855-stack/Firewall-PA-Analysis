@@ -1,0 +1,8 @@
+﻿Name,Members,Members
+LON_Remote_Access_Insecure,4,"telnet-tcp-23,socks-proxy-tcp-1080,rdp-tcp-3389,vnc-tcp-5900"
+LON_Insecure_File_Sharing,7,"ms-rpc-tcp-135,ms-rpc-udp-135,netbios-ns-tcp-137,netbios-ns-udp-137,netbios-ssn-tcp-139,netbios-ssn-udp-139,smb-tcp-445"
+LON_IRC_Backdoor_Suspect,2,"backdoor-common-tcp-4444,irc-tcp-6660-6669"
+LON_Email_Legacy,2,"pop3-tcp-110,imap-alt-tcp-145"
+LON_FTP_All,3,"ftp-data-tcp-20,ftp-control-tcp-21,ftp-bundle-tcp-20-21"
+LON_Windows_RPC_NetBIOS,6,"ms-rpc-tcp-135,ms-rpc-udp-135,netbios-ns-tcp-137,netbios-ns-udp-137,netbios-ssn-tcp-139,netbios-ssn-udp-139"
+LON_SNMP_Group,2,"snmp-tcp-161,snmp-udp-161"

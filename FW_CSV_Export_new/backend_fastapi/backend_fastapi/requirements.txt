@@ -1,0 +1,16 @@
+--only-binary=pandas
+fastapi==0.119.0
+uvicorn[standard]==0.38.0
+python-multipart==0.0.20
+pydantic[email]==2.12.3
+fastmcp==2.12.4
+mcp>=1.12.4,<2.0.0
+# Prefer wheels to avoid Meson/VS build errors on Windows
+pandas==2.2.2; python_version < "3.13"
+pandas>=2.2.3; python_version >= "3.13"
+openpyxl==3.1.5
+xlsxwriter==3.2.9
+fastapi[standard]
+langchain-core
+httpx>=0.24.0
+pdfplumber>=0.11.0

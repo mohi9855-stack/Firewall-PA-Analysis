@@ -1,0 +1,10 @@
+﻿Name,Members,Services
+Remote_Access_Insecure,3,"telnet-tcp-23,rdp-tcp-3389,vnc-tcp-5900"
+Broad_Mixed_Services,6,"http-tcp-80,dns-udp-53,tftp-udp-69,r-services-tcp-512-514,telnet-tcp-23,tcp-any"
+Insecure_File_Sharing,7,"smb-tcp-445,ms-rpc-tcp-135,ms-rpc-udp-135,netbios-ns-tcp-137,netbios-ns-udp-137,netbios-ssn-tcp-139,netbios-ssn-udp-139"
+Legacy_Remote_Access,4,"telnet-tcp-23,rdp-tcp-3389,vnc-tcp-5900,socks-proxy-tcp-1080"
+IRC_Backdoor_Suspect,2,"backdoor-common-tcp-4444,irc-tcp-6660-6669"
+Email_Legacy,2,"pop3-tcp-110,imap-alt-tcp-145"
+FTP_All,4,"ftp-data-tcp-20-21,ftp-data-tcp-20,ftp-control-tcp-21,ftp-bundle-tcp-20-21"
+Windows_RPC_NetBIOS,6,"ms-rpc-tcp-135,ms-rpc-udp-135,netbios-ns-tcp-137,netbios-ns-udp-137,netbios-ssn-tcp-139,netbios-ssn-udp-139"
+SNMP_Group,2,"snmp-tcp-161,snmp-udp-161"
